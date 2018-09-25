@@ -2,8 +2,8 @@
 <tincan xmlns="http://projecttincan.com/tincan.xsd">
     <activities>
         <activity id="example.com/online/assets/course/index.html" type="http://adlnet.gov/expapi/activities/course">
-            <name><![CDATA[Adapt Version 3.0 demonstration]]></name>
-            <description lang="en-US"><![CDATA[A sample course demonstrating the capabilities of the Adapt Framework v3.0]]></description>
+            <name><![CDATA[Back Door Selling]]></name>
+            <description lang="en-US"><![CDATA[A sample course demonstrating the different scenarios of Back Door Selling and how tho deal with them]]></description>
             <launch lang="en-US">index.html</launch>
         </activity>
     </activities>

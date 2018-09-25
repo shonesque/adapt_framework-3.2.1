@@ -4,220 +4,79 @@
 		"_parentId": "b-05",
 		"_type": "component",
 		"_component": "text",
-		"_classes": "",
-		"_layout": "left",
+		"_classes": "intro",
+		"_layout": "full",
 		"title": "Introduction",
 		"displayTitle": "",
-		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-		"instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+		"body": "Play the entire introduction video, so you can have a better overview over what is coming up next. The training is brought to you by:<strong> Benedict Negotiating Seminars, Inc</strong>",
+		"instruction": "After completing the video you will unlock the next scene.<br><br>This is a license for the training of 1 person only. Violations should be reported to BNS at 813-655-4272 or local FBI office.",
 		"_pageLevelProgress": {
-			"_isEnabled": true
+			"_isEnabled": false
 		}
 	},
 	{
 		"_id": "c-10",
 		"_parentId": "b-05",
 		"_type": "component",
-		"_component": "graphic",
+		"_component": "media",
 		"_classes": "",
-		"_layout": "right",
-		"title": "c-10",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Introduction",
 		"displayTitle": "",
 		"body": "",
 		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
+		"_media": {
+			"mp4": "course/en/video/v1.mp4",
+			"poster": "course/en/video/PHV1.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		}
+	},	
+	{
+		"_id": "c-2000",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-10"
 	},
 	{
 		"_id": "c-15",
 		"_parentId": "b-10",
-		"_type": "component",
-		"_component": "text",
-		"_classes": "",
-		"_layout": "left",
-		"title": "Text",
-		"displayTitle": "Text",
-		"body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
-		"instruction": "",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-20",
-		"_parentId": "b-10",
-		"_type": "component",
-		"_component": "blank",
-		"_classes": "",
-		"_layout": "right",
-		"title": "c-20"
-	},
-	{
-		"_id": "c-25",
-		"_parentId": "b-15",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "full",
-		"title": "Graphic",
-		"displayTitle": "Graphic",
-		"body": "This is the graphic component body. You can introduce your graphic or you may just want to let the graphics do the talking.<br><br>Component can either be single or spanned.",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/full_width.jpg",
-			"small": "course/en/images/full_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-30",
-		"_parentId": "b-20",
-		"_type": "component",
-		"_component": "narrative",
-		"_classes": "",
-		"_layout": "full",
-		"_comment": "setCompletionOn = inview | allItems",
-		"_setCompletionOn": "allItems",
-		"_hasNavigationInTextArea": false,
-		"title": "Narrative",
-		"displayTitle": "Narrative",
-		"body": "The narrative component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned.",
-		"instruction": "Select the arrows to find out more.",
-		"mobileInstruction": "Select the arrows followed by the plus icon to find out more.",
-		"_items": [
-			{
-				"title": "Narrative item 1",
-				"body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic."
-				},
-				"strapline": "Narrative item 1"
-			},
-			{
-				"title": "Narrative item 2",
-				"body": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic."
-				},
-				"strapline": "Narrative item 2"
-			},
-			{
-				"title": "Narrative item 3",
-				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic."
-				},
-				"strapline": "Narrative item 3"
-			}
-		],
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-35",
-		"_parentId": "b-25",
-		"_type": "component",
-		"_component": "hotgraphic",
-		"_classes": "",
-		"_layout": "full",
-		"_comment": "setCompletionOn = inview | allItems",
-		"_setCompletionOn": "allItems",
-		"_canCycleThroughPagination": false,
-		"_hidePagination": false,
-		"_useGraphicsAsPins": false,
-		"title": "Hot Graphic",
-		"displayTitle": "Hot Graphic",
-		"body": "You can add interactivity to an image by using the <strong>hot graphic</strong>. This component allows you to position icons over an image. When an icon is selected, content associated with its corresponding location is displayed in a window over the image. This component will fall back to a <strong>narrative</strong> when viewed on mobile.<br><br>This component is always spanned.",
-		"instruction": "Select the icons to find out more.",
-		"mobileInstruction": "",
-		"_graphic": {
-			"src": "course/en/images/full_width.jpg",
-			"alt": "Placeholder graphic."
-		},
-		"_items": [
-			{
-				"title": "Hot graphic item 1",
-				"body": "This is display text 1 which we have associated with the tablet image on the desktop.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 1",
-				"_classes": "",
-				"_top": 42,
-				"_left": 8.5
-			},
-			{
-				"title": "Hot graphic item 2",
-				"body": "This is display text 2 which we have linked to the smartphone image.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 2",
-				"_classes": "",
-				"_top": 62,
-				"_left": 26.5
-			},
-			{
-				"title": "Hot graphic item 3",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 3",
-				"_classes": "",
-				"_top": 62,
-				"_left": 49
-			}
-		],
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-40",
-		"_parentId": "b-30",
 		"_type": "component",
 		"_component": "media",
 		"_classes": "",
 		"_layout": "full",
 		"_comment": "_setCompletionOn = inview | play | ended",
 		"_setCompletionOn": "play",
-		"_useClosedCaptions": true,
+		"_useClosedCaptions": false,
 		"_allowFullScreen": true,
-		"title": "Media",
-		"displayTitle": "Media",
-		"body": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore.<br><br>Component can be either single or spanned.",
-		"instruction": "Select the play button to start the video.",
+		"title": "Scene 1: Digging One's Own Grave",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the video and answer the questions so you can carry on to the next scene",
 		"_media": {
-			"mp4": "course/en/video/c-40.mp4",
-			"poster": "course/en/video/c-40.jpg",
-			"cc": [
-				{
-					"srclang": "en",
-					"src": "course/en/video/c-40.vtt"
-				}
-		    ]
+			"mp4": "course/en/video/v2.mp4",
+			"poster": "course/en/video/PHV2.png"
 		},
 		"_transcript": {
-			"_inlineTranscript": true,
+			"_inlineTranscript": false,
 			"_externalTranscript": false,
 			"inlineTranscriptButton": "Transcript",
 			"inlineTranscriptCloseButton": "Close Transcript",
@@ -230,116 +89,63 @@
 		}
 	},
 	{
-		"_id": "c-45",
-		"_parentId": "b-35",
-		"_type": "component",
-		"_component": "accordion",
-		"_classes": "",
-		"_layout": "full",
-		"title": "Accordion",
-		"displayTitle": "Accordion",
-		"body": "You can use the <strong>accordion</strong> component to present learners with a series of headings, which once selected, expand to reveal associated text. Select each of the headings below to find out more about how accordions can be used.<br><br>These components can be either single or spanned. If spanned they can also contain a graphic.",
-		"instruction": "Select the headings to find out more.",
-		"_items": [
-			{
-				"title": "Lists",
-				"body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list that can stand alone as a piece of content, but which can also be explored in more detail, accordions are a great choice.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			},
-			{
-				"title": "Steps in a process",
-				"body": "This is display text 2 and now we’re discussing how accordions can be great at presenting a process.<br><br>The headings can be used to present the high-level stages in the process, which once selected, provide a more extensive explanation of what happens at that specific point.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			},
-			{
-				"title": "Recaps",
-				"body": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			}
-		],
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-60",
-		"_parentId": "b-40",
+		"_id": "c-20",
+		"_parentId": "b-10",
 		"_type": "component",
 		"_component": "mcq",
 		"_classes": "",
-		"_layout": "left",
+		"_layout": "full",
 		"_attempts": 1,
 		"_questionWeight": 1,
 		"_canShowModelAnswer": true,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 1,
-		"title": "Multiple Choice Question",
-		"displayTitle": "Multiple Choice Question",
-		"body": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?",
-		"instruction": "Choose one or more options and select Submit.",
+		"_selectable": 4,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Who do suppliers primarly target for back door selling questions?",
+		"instruction": "",
 		"_items": [
 			{
-				"text": "1917",
+				"text": "Technical people",
 				"_shouldBeSelected": true
 			},
 			{
-				"text": "1888",
+				"text": "Purchasing people",
 				"_shouldBeSelected": false
 			},
 			{
-				"text": "1953",
-				"_shouldBeSelected": false
+				"text": "Receptionists",
+				"_shouldBeSelected": true
 			},
 			{
-				"text": "1977",
-				"_shouldBeSelected": false
+				"text": "Project and Program Managers",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Administrative Assistants",
+				"_shouldBeSelected": true
 			}
 		],
 		"_feedback": {
-			"title": "Feedback",
-			"correct": "Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>",
+			"correct": "Yes!<br><br>And all others except purchasing people.",
 			"_incorrect": {
-				"final": "Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>"
+				"final": "No<br><br>They primarly target non-purchasing people."
+			},
+			"_partlyCorrect": {
+				"final": "Yes!<br><br>And all others except purchasing people."
 			}
-		},
+		},	
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
-		"_id": "c-62",
-		"_parentId": "b-40",
+		"_id": "c-25",
+		"_parentId": "b-10",
 		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"title": "c-62",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-65",
-		"_parentId": "b-45",
-		"_type": "component",
-		"_component": "gmcq",
-		"_classes": "",
+		"_component": "mcq",
+		"_classes": "scenario-one question-two",
 		"_layout": "full",
 		"_attempts": 1,
 		"_questionWeight": 1,
@@ -347,118 +153,35 @@
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
 		"_selectable": 1,
-		"title": "Graphical Multiple Choice Question",
-		"displayTitle": "Graphical Multiple Choice Question",
-		"body": "The graphical multiple choice question is an alternative to the standard MCQ, and allows you to ask a question and present the options as graphics (with accompanying captions). This component is always spanned.",
-		"instruction": "Choose option 2 and select Submit.",
-		"_columns": 3,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "The supplier's goal in back door selling is to build their company's negotiating _______________.",
+		"instruction": "",
 		"_items": [
 			{
-				"text": "Option 1",
-				"_shouldBeSelected": false,
-				"_graphic": {
-					"large": "course/en/images/GMCQ_option.png",
-					"small": "course/en/images/GMCQ_option.png",
-					"alt": "Placeholder graphic."
-				}
+				"text": "Reputation",
+				"_shouldBeSelected": false
 			},
 			{
-				"text": "Option 2",
-				"_shouldBeSelected": true,
-				"_graphic": {
-					"large": "course/en/images/GMCQ_option.png",
-					"small": "course/en/images/GMCQ_option.png",
-					"alt": "Placeholder graphic."
-				}
-			},
-			{
-				"text": "Option 3",
-				"_shouldBeSelected": false,
-				"_graphic": {
-					"large": "course/en/images/GMCQ_option.png",
-					"small": "course/en/images/GMCQ_option.png",
-					"alt": "Placeholder graphic."
-				}
-			}
-		],
+				"text": "Leverage",
+				"_shouldBeSelected": true
+			}			
+		],	
 		"_feedback": {
-			"title": "Feedback",
-			"correct": "Correct feedback text.<br><br>That’s correct. <strong>Option 2</strong> is what we were looking for!",
+			"correct": "That’s correct!<br><br>The supplier's goal in back door selling is to build their company's negotiating <strong>leverage</strong>.",
 			"_incorrect": {
-				"final": "Incorrect feedback text.<br><br>Sorry, that’s not right. In fact <strong>Option 2</strong> is what we were looking for (the clue was in the instruction text!)."
+				"final": "This is not correct.<br><br>The supplier's goal in back door selling is to build their company's negotiating <strong>leverage</strong>."
 			}
-		},
+		},		
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-70",
-		"_parentId": "b-50",
+		"_parentId": "b-10",
 		"_type": "component",
-		"_component": "textinput",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": true,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_allowsAnyCase": true,
-		"_allowsPunctuation": true,
-		"title": "Text Input",
-		"displayTitle": "Text Input",
-		"body": "Can you name one of the three companies that established Adapt as a community led Open Source project?",
-		"instruction": "Input your answer and select Submit.",
-		"_answers": [
-			["City & Guilds Kineo", "Kineo"],
-			["Learning Pool"],
-			["Sponge"]
-		],
-		"_items": [
-			{
-				"prefix": "",
-				"placeholder": "Enter answer here",
-				"suffix": ""
-			}
-		],
-		"_feedback": {
-			"title": "Feedback",
-			"correct": "Correct answer feedback.<br><br>That’s correct. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>",
-			"_partlyCorrect": {
-				"final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>"
-			},
-			"_incorrect": {
-				"final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>"
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-72",
-		"_parentId": "b-50",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"title": "c-72",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-75",
-		"_parentId": "b-55",
-		"_type": "component",
-		"_component": "matching",
+		"_component": "mcq",
 		"_classes": "",
 		"_layout": "full",
 		"_attempts": 1,
@@ -466,597 +189,2070 @@
 		"_canShowModelAnswer": true,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"title": "Matching",
-		"displayTitle": "Matching",
-		"body": "Can you identify some of the key facts and figures associated with the Adapt Open Source project?",
-		"instruction": "Choose an option from each dropdown list and select Submit.",
-		"placeholder": "Select an option",
+		"_selectable": 1,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "Which of these is <strong>NOT</strong> an objective of the supplier's back door selling questions?",
+		"instruction": "",
 		"_items": [
 			{
-				"text": "The Adapt Open Source project was formed in:",
-				"_options": [
-					{
-						"text": "2008",
-						"_isCorrect": false
-					},
-					{
-						"text": "2010",
-						"_isCorrect": false
-					},
-					{
-						"text": "2013",
-						"_isCorrect": true
-					},
-					{
-						"text": "2015",
-						"_isCorrect": false
-					}
-				]
+				"text": "Divide purchasing and technical people",
+				"_shouldBeSelected": false
 			},
 			{
-				"text": "Adapt adheres to the WCAG 2.0 guidelines to level AA, but when were these published?",
-				"_options": [
-					{
-						"text": "2008",
-						"_isCorrect": true
-					},
-					{
-						"text": "2010",
-						"_isCorrect": false
-					},
-					{
-						"text": "2013",
-						"_isCorrect": false
-					},
-					{
-						"text": "2015",
-						"_isCorrect": false
-					}
-				]
+				"text": "Don't leave money on the table",
+				"_shouldBeSelected": false
 			},
 			{
-				"text": "Which of these languages would benefit from using the recent addition of Right To Left (RTL) language support within Adapt?",
-				"_options": [
-					{
-						"text": "Portuguese",
-						"_isCorrect": false
-					},
-					{
-						"text": "Hebrew",
-						"_isCorrect": true
-					},
-					{
-						"text": "Finnish",
-						"_isCorrect": false
-					},
-					{
-						"text": "Esperanto",
-						"_isCorrect": false
-					}
-				]
+				"text": "Make sure the customer gets a good deal",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Make sure that when the negotiation reaches the formal stage - there is nothing left to negotiate",
+				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"title": "Feedback",
-			"correct": "Correct answer feedback.<br><br>Yes, that’s right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>",
-			"_partlyCorrect": {
-				"final": "Partially correct answer feedback.<br><br>That’s partially correct. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
-			},
+			"correct": "That’s correct!<br><br>Make sure the customer gets a good deal is <strong>NOT</strong> an objective of the supplier's back door selling questions",
 			"_incorrect": {
-				"final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+				"final": "This is not correct.<br><br>Make sure the customer gets a good deal is <strong>NOT</strong> an objective of the supplier's back door selling questions"
 			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2005",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-15"
+	},
+	{
+		"_id": "c-30",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 2: Understanding Leverage",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the video and answer the questions so you can carry on to the next scene.",
+		"_media": {
+			"mp4": "course/en/video/v3.mp4",
+			"poster": "course/en/video/PHV3.png"
 		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	
+	{
+		"_id": "c-35",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-two question-one",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 5,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Salespeople keep extensive files about their competitors. If they know who their competitors are, they have a pretty good idea about where they should be on which of the following:",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Price",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Terms",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Delivery",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Warranty",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Freight Costs",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "That’s correct!<br><br>All of the answers are correct<br><br>Salespeople keep extensive files about their competitors. If they know who their competitors are, they have a pretty good idea about where they should be on <strong>price, terms, delivery, warranty and freight costs</strong>.",
+			"_incorrect": {
+				"final": "Yes – and all the rest of these negotiable items as well."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-40",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-two question-two",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "Is it a good idea to emphasize to the supplier how pleased you are with their quality?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Yes",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "No",
+				"_shouldBeSelected": true
+			}			
+		],	
+		"_feedback": {
+			"correct": "That’s correct!<br><br>It is <strong>NOT</strong> a good idea to emphasize to the supplier how pleased you are with their quality",
+			"_incorrect": {
+				"final": "That’s not the case.<br><br>It is <strong>NOT</strong> a good idea to emphasize to the supplier how pleased you are with their quality"
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-75",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-two question-three",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "If you are exuberant in your praise of the supplier's quality, service, product, etc., it will build their negotiating ______________ at the expense of your company.",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Expertise",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Leverage",
+				"_shouldBeSelected": true
+			}			
+		],	
+		"_feedback": {
+			"correct": "That’s correct!<br><br>Being exuberant in your praise of the supplier's deliverables you are going to build their negotiating <strong>LEVERAGE</strong>.",
+			"_incorrect": {
+				"final": "That’s not the case.<br><br>Being exuberant in your praise of the supplier's deliverables you are going to build their negotiating <strong>LEVERAGE</strong>."
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2010",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-20"
+	},
+	{
+		"_id": "c-45",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "scene-three",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 3: Salesman Undercutting Your Leverage",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the entire video and answer the questions so you can carry on to the next scene. <br><br>This is a license for the training of 1 person only. Violations should be reported to BNS at 813-655-4272 or local FBI office.",
+		"_media": {
+			"mp4": "course/en/video/v4.mp4",
+			"poster": "course/en/video/PHV4.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-50",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-three question-one",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Why does the supplier want to know who the end user is?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Philosophic curiosity",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "To get <strong>speced in</strong> or <strong>dictated in</strong> by the end-user",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "So they can better understand how to give your company a better price and a quicker delivery time",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "That’s correct!<br><br>The supplier wants to know who the end user is because they are looking to get <strong>speced in</strong> or <strong>dictated in</strong> by the end-user.",
+			"_incorrect": {
+				"final": "The supplier wants to know who the end user is because they are looking to get <strong>speced in</strong> or <strong>dictated in</strong> by the end-user."
+			}
+		},		
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-80",
-		"_parentId": "b-60",
+		"_parentId": "b-20",
 		"_type": "component",
-		"_component": "slider",
-		"_classes": "",
+		"_component": "mcq",
+		"_classes": "scenario-set-three question-two",
 		"_layout": "full",
 		"_attempts": 1,
 		"_questionWeight": 1,
 		"_canShowModelAnswer": true,
 		"_shouldDisplayAttempts": false,
-		"_showNumber": true,
-		"_showScaleIndicator": true,
-		"_scaleStart": 1,
-		"_scaleEnd": 10,
-		"title": "Slider",
-		"displayTitle": "Slider",
-		"body": "Working memory is thought to be responsible for our ability to temporarily hold and manipulate information, but according to a paper by Miller (1956) what ‘magic number’ describes its capacity?",
-		"instruction": "Drag the slider to make your choice and select Submit.",
-		"labelStart": "",
-		"labelEnd": "",
-		"_correctAnswer": "",
-		"_correctRange": {
-			"_bottom": 5,
-			"_top": 9
-		},
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question two",
+		"displayTitle": "",
+		"body": "Are the supplier's back door questions unethical?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Yes",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "No",
+				"_shouldBeSelected": true
+			}			
+		],
 		"_feedback": {
-			"title": "Feedback",
-			"correct": "Correct answer feedback.<br><br>Yes, that’s right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>",
+			"correct": "That’s correct!<br><br>It is the supplier's rightful job to ask these questions. You just need to know how to respond so you don’t give away negotiating leverage.",
 			"_incorrect": {
-				"final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>"
+				"final": "That’s not the case.<br><br>It is the supplier's rightful job to ask these questions. You just need to know how to respond so you don’t give away negotiating leverage."
 			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-85",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-three question-three",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question Three",
+		"displayTitle": "",
+		"body": "Every time you talk with an outside supplier, you're involved in a ___________",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Gab fest",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Communication",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Negotiation",
+				"_shouldBeSelected": true
+			}			
+		],
+		"_feedback": {
+			"correct": "That’s correct!<br><br>You're involved in a <strong>NEGOTIATION</strong> every time you talk with an outside supplier.",
+			"_incorrect": {
+				"final": "This is not entirely true.<br><br>You're involved in a <strong>NEGOTIATION</strong> every time you talk with an outside supplier."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2090",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-25"
+	},
+	{
+		"_id": "c-55",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "scene-four",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 4: Lack of Leverage Costs You",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the video and answer the questions so you can carry on to the next scene",
+		"_media": {
+			"mp4": "course/en/video/v5.mp4",
+			"poster": "course/en/video/PHV5.png"
 		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-60",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-four question-one",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "If you intimate that purchasing has no say or veto power in the negotiation, you have effectively _____________ their negotiating leverage.",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Enhanced",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Destroyed",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Doubled",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Exactly!<br><br>When you undermine the purchasing department in the negotiation, you are effectively <strong>DESTROYING</strong> their negotiating leverage.",
+			"_incorrect": {
+				"final": "This is not correct.<br><br>When you undermine purchasing in the negotiation, you are effectively <strong>DESTROYING</strong> their negotiating leverage."
+			}
+		},		
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-90",
-		"_parentId": "b-65",
+		"_parentId": "b-25",
 		"_type": "component",
 		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
+		"_classes": "scenario-set-four question-two",
+		"_layout": "full",
 		"_attempts": 1,
 		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
+		"_canShowModelAnswer": true,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 4,
-		"title": "To scroll or not to scroll?",
-		"displayTitle": "To scroll or not to scroll?",
-		"body": "Can you identify a few of the benefits that a vertical scrolling approach offers over the traditional back and next approach?",
-		"instruction": "Choose one or more options and select Submit.",
+		"_selectable": 1,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "In a negotiation, leverage is defined as your source of ___________?",
+		"instruction": "",
 		"_items": [
 			{
-				"text": "Scrolling is common place on the web and therefore familiar to the learner",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Scrolling reduces the need for unnecessary navigation as pages can be as long (or as short) as they need to be",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Scrolling helps ensure designs are more mobile friendly",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Scrolling means you no longer need to first gain learners attention",
+				"text": "Money",
 				"_shouldBeSelected": false
+			},
+			{
+				"text": "Weakness",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Charisma",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Strength",
+				"_shouldBeSelected": true
 			}
 		],
 		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_partlyCorrect": {
-				"final": ""
-			},
+			"correct": "Absolutely!<br><br>In a negotiation leverage is the equivalent of strength.",
 			"_incorrect": {
-				"final": ""
+				"final": "This not the case.<br><br>In a negotiation leverage is the equivalent of strength."
 			}
-		},
+		},		
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-95",
-		"_parentId": "b-65",
+		"_parentId": "b-25",
 		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
+		"_component": "mcq",
+		"_classes": "scenario-set-four question-three",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 3",
 		"displayTitle": "",
-		"body": "",
+		"body": "In fact, without leverage, there is really no _____________",
 		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
+		"_items": [
+			{
+				"text": "Negotiation",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Communication",
+				"_shouldBeSelected": false
+			}			
+		],
+		"_feedback": {
+			"correct": "You are correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>Unless you have some form of leverage, you are not involved in a negotiation. You can call it a pleading session or a groveling session, but it is not a negotiation."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-100",
-		"_parentId": "b-75",
+		"_parentId": "b-25",
 		"_type": "component",
 		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_selectable": 5,
-		"title": "Do you know your plugins?",
-		"displayTitle": "Do you know your plugins?",
-		"body": "Which of the following are types of Adapt plugins?",
-		"instruction": "Choose one or more options and select Submit.",
-		"_items": [
-			{
-				"text": "Component",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Extension",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Schema",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Block",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "App Wrapper",
-				"_shouldBeSelected": false
-			}
-		],
-		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_partlyCorrect": {
-				"final": ""
-			},
-			"_incorrect": {
-				"final": ""
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-105",
-		"_parentId": "b-75",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-105",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-110",
-		"_parentId": "b-80",
-		"_type": "component",
-		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_selectable": 1,
-		"title": "It’s as simple as A, B, C",
-		"displayTitle": "It’s as simple as A, B, C",
-		"body": "Can you identify the missing word in the following sequence?<br>Article / ..... / Component.",
-		"instruction": "Choose an option and select Submit.",
-		"_items": [
-			{
-				"text": "Block",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Bridge",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Brace",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Base",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Bearing",
-				"_shouldBeSelected": false
-			}
-		],
-		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_incorrect": {
-				"final": ""
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-115",
-		"_parentId": "b-80",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-115",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-120",
-		"_parentId": "b-85",
-		"_type": "component",
-		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_selectable": 4,
-		"title": "Content objects",
-		"displayTitle": "Content objects",
-		"body": "What would you be referring to when describing a content object within Adapt?",
-		"instruction": "Choose one or more options and select Submit.",
-		"_items": [
-			{
-				"text": "Page",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Menu",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Component",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Course configuration options",
-				"_shouldBeSelected": false
-			}
-		],
-		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_partlyCorrect": {
-				"final": ""
-			},
-			"_incorrect": {
-				"final": ""
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-125",
-		"_parentId": "b-85",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-130",
-		"_parentId": "b-90",
-		"_type": "component",
-		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_selectable": 1,
-		"title": "Adding titles to icons",
-		"displayTitle": "Adding titles to icons",
-		"body": "Version 2.0 of the framework makes it possible to add titles to the icons shown on the navigation bar. Do you know what JSON file you would need to edit to add a title to an icon?",
-		"instruction": "Choose an option and select Submit.",
-		"_items": [
-			{
-				"text": "course.json",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "config.json",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "contentObjects.json",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "components.json",
-				"_shouldBeSelected": false
-			}
-		],
-		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_incorrect": {
-				"final": ""
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-135",
-		"_parentId": "b-90",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-140",
-		"_parentId": "b-95",
-		"_type": "component",
-		"_component": "mcq",
-		"_classes": "",
-		"_layout": "left",
-		"_attempts": 1,
-		"_questionWeight": 1,
-		"_canShowModelAnswer": false,
-		"_shouldDisplayAttempts": false,
-		"_isRandom": true,
-		"_selectable": 4,
-		"title": "Control the scroll",
-		"displayTitle": "Control the scroll",
-		"body": "The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what elements of a page can it be applied to?",
-		"instruction": "Choose an option and select Submit.",
-		"_items": [
-			{
-				"text": "Article",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Block",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Component",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Other extensions",
-				"_shouldBeSelected": false
-			}
-		],
-		"_feedback": {
-			"title": "",
-			"correct": "",
-			"_partlyCorrect": {
-				"final": ""
-			},
-			"_incorrect": {
-				"final": ""
-			}
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-145",
-		"_parentId": "b-95",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-147",
-		"_parentId": "b-100",
-		"_type": "component",
-		"_component": "text",
-		"_classes": "",
+		"_classes": "scenario-set-four question-four",
 		"_layout": "full",
-		"title": "Scoring bands",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 4",
 		"displayTitle": "",
-		"body": "The new Assessment Results component allows you to specify the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 75% or above and provided four scoring bands, each of which has some accompanying feedback. The four scoring bands were:<br><br><ul><li>0-49% (fail)</li><li>50-74% (fail)</li><li>75-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
-		"_canReset": true,
-		"_isResetOnRevisit": "hard",
+		"body": "Which is <strong>NOT</strong> an example of the buyer's leverage?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Competitive quotes",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Growth of the business",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Size of the order",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Your company's need for quick delivery",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Slips in quality and delivery",
+				"_shouldBeSelected": false
+			}			
+		],
+		"_feedback": {
+			"correct": "Your answer is correct – this is leverage for the supplier!",
+			"_incorrect": {
+				"final": "The correct answer is <strong>Your company's need for quick delivery</strong>"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-230",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-four question-five",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 5",
+		"displayTitle": "",
+		"body": "Can a lack of leverage cause your company to pay too much for the seller's product?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Yes",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "No",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Absolutely!",
+			"_incorrect": {
+				"final": "Incorrect"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-235",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-four question-six",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 6",
+		"displayTitle": "",
+		"body": "When should purchasing be brought into the sales process?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Right at the end when the order must be placed",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Never",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "As early in the process as possible. In fact, it is highly advantagous to involve them at the design stage",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Yes!",
+			"_incorrect": {
+				"final": "No<br><br>Purchasing should be brought into the process as early as possible."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2015",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-30"
+	},
+	{
+		"_id": "c-65",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "scene-five",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 5: Salesman blowing up your negotiation position",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the entire video and answer the questions so you can carry on to the next scene",
+		"_media": {
+			"mp4": "course/en/video/v6.mp4",
+			"poster": "course/en/video/PHV6.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-150",
-		"_parentId": "b-105",
+		"_parentId": "b-30",
 		"_type": "component",
-		"_component": "assessmentResults",
+		"_component": "mcq",
 		"_classes": "",
 		"_layout": "full",
-		"_isVisibleBeforeCompletion": false,
-		"_assessmentId": "a-15",
-		"title": "Results",
-		"displayTitle": "Results",
-		"body": "",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "In most cases, should I tell the supplier my budget?",
 		"instruction": "",
-		"_retry": {
-			"button": "Retry Assessment",
-			"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
-			"feedback": ""
-		},
-		"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
-		"_completionBody": "{{{feedback}}}",
-		"_bands": [
+		"_items": [
 			{
-				"_score": 0,
-				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on our site. We’d also suggest you pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
-				"_allowRetry": true
+				"text": "Yes",
+				"_shouldBeSelected": false
 			},
 			{
-				"_score": 50,
-				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore our site for more information. Also pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
-				"_allowRetry": true
-			},
-			{
-				"_score": 75,
-				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the Adapt community forums.",
-				"_allowRetry": true
-			},
-			{
-				"_score": 100,
-				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the Adapt community forums.",
-				"_allowRetry": false
+				"text": "No",
+				"_shouldBeSelected": true
 			}
 		],
+		"_feedback": {
+			"correct": "You are correct!<br><br>You should <strong>NOT</strong> reveal your budget to the supplier.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>You should <strong>NOT</strong> reveal your budget to the supplier."
+			}
+		},		
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
+	},
+	{
+		"_id": "c-105",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "As a technical person, why should I care if I give away the negotiating store? It doesn't affect my performance appraisal.",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "It could affect my job security if our company's products become noncompetitive in the marketplace. At that point, layoffs begin to occur",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "I shouldn't. Back Door Selling is not a big thing",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "It could affect our company's profitability and therefore everyone's retirement fund that hold's our company's stock",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "It could cost the jobs of my colleagues, creating emotional upheavel for their families if layoffs occur.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "You are correct!<br><br>I should care if I give away the negotiating store because this can lead to affecting my job security, it could cost the jobs of my colleagues and even affect our company's profitability and therefore everyone's retirement fund that holds our company's stock.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>I should care if I give away the negotiating store because this can lead to affecting my job security, it could cost the jobs of my colleagues and even affect our company's profitability and therefore everyone's retirement fund that holds our company's stock."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2020",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-35"
+	},
+	{
+		"_id": "c-155",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "scene-five",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 6: Into the quicksand pit",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the entire video and answer the questions so you can carry on to the next scene. <br><br>This is a license for the training of 1 person only. Violations should be reported to BNS at 813-655-4272 or local FBI office.",
+		"_media": {
+			"mp4": "course/en/video/v7.mp4",
+			"poster": "course/en/video/PHV7.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-110",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 4,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Select the back door questions that could build the leverage of the supplier at the expense of of your company's leverage.",
+		"instruction": "What are the four correct responses?",
+		"_items": [
+			{
+				"text": "Where is this product in it's life cycle?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "How tight is the specification?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Is this a budgeted item?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Did you catch the big game yesterday?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "What's our reputation with your company?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Do you have any children? How old they are?",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Perfect!<br><br>These are indeed the <strong>Back Door Selling</strong> questions on the list.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The <strong>Back Door Selling</strong> questions on the list are:<br>Where is this product in it's life cycle?<br>How tight is the specification?<br>Is this a budgeted item?<br>What's our reputation with your company?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-115",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 4,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "Select the back door questions that could build the leverage of the supplier at the expense of of your company's leverage.",
+		"instruction": "What are the four correct responses?",
+		"_items": [
+			{
+				"text": "Has your company had many layoffs lately?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Is your company looking to build more things in-house or are you more in the mode of outsourcing?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Are you native to this area? Where are you from originally?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Are you working a lot of hours lately?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Do you need any assistance with the drawings?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "We're planning a family vacation and just can't agree as a family on any place. Do you have any suggestions?",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Perfect!<br><br>These are indeed the <strong>Back Door Selling</strong> questions on the list.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The <strong>Back Door Selling</strong> questions on the list are: <br>Has your company had many layoffs lately?<br>Is your company looking to build more things in-house or are you more in the mode of outsourcing? <br>Are you working a lot of hours lately?<br>Do you need any assistance with the drawings?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-120",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 4,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "Select the back door questions that could build the leverage of the supplier at the expense of of your company's leverage.",
+		"instruction": "What are the four correct responses?",
+		"_items": [
+			{
+				"text": "I hear a lot of discontent industry-wide about products coming in from low cost regions overseas. What has been your experience?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Are you hiring a lot of people lately?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "I'm relatively new in town. Do you know of any good restaurants?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "If I could design the drawing and prototype for free, would that be of interest to you?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Before I respond to the request for quotation, I need to tell you that I have a faster and cheaper way to acomplish what you're looking for, but it would require a slight change in the specification. Are you interested?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "What are your hobbies?",
+				"_shouldBeSelected": false
+			}				
+		],
+		"_feedback": {
+			"correct": "Perfect!<br><br>These are indeed the <strong>Back Door Selling</strong> questions on the list.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The <strong>Back Door Selling</strong> questions on the list are:<br>What new products are on the horizon?<br>When does the decision on this sale has to be made by?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-335",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 2,
+		"title": "Question 4",
+		"displayTitle": "",
+		"body": "Select the back door questions that could build the leverage of the supplier at the expense of of your company's leverage.",
+		"instruction": "What are the two correct responses?",
+		"_items": [
+			{
+				"text": "What are your hobbies?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "What new products are on the horizon?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "What kind of car do you drive?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "When does the decision on this sale have to be made by?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "So where did you buy that tie?",
+				"_shouldBeSelected": false
+			}			
+		],
+		"_feedback": {
+			"correct": "Perfect!<br><br>These are indeed the <strong>Back Door Selling</strong> questions on the list.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The <strong>Back Door Selling</strong> questions on the list are:<br>What new products are on the horizon?<br>When does the decision on this sale has to be made by?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2025",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-40"
+	},
+	{
+		"_id": "c-200",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 7: Salesperson's Questions to you",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the videos and answer all of the questions so you can carry on to the next scene",
+		"_media": {
+			"mp4": "course/en/video/v8.mp4",
+			"poster": "course/en/video/PHV8.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-205",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "When do you really need this by?",
+		"instruction": "There are three correct options you should select",
+		"_items": [
+			{
+				"text": "Ask the buyer",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Yesterday - delivery is absolutely critical",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "The schedule was stated on the RFQ. That's when we really need it by",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "What's your standard delivery? What's your current delivery? If push came to shove, how fast could you have it here without an expediting fee?",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Exactly!<br><br>You selected the correct answer options.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>Ask the buyer<br>The schedule was started on the RFQ. That's when we really need it by<br>What's your standard delivery? What's your current delivery? If push came to shove, how fast could you have it here without an expediting fee?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-210",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 7: Salesperson's Questions to you",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v9.mp4",
+			"poster": "course/en/video/PHV9.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-215",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "Hey, how's business?",
+		"instruction": "There are three correct options you should select",
+		"_items": [
+			{
+				"text": "Business is steady. How's your business?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Whatever it says in the financial section of the newspaper, that's how we're doing",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Fine",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Business is terrific. We're running every line, 3 shifts a day, 7 days a week",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Exactly!<br><br>You selected the correct answer options.",
+			"_incorrect": {
+				"final": "That's not correct.<br>The correct answer options are: <br>Business is steady. How's your business?<br>Whatever it says in the financial section of the newspaper, that's how we're doing<br>Fine"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-220",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 7: Salesperson's Questions to you",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v10.mp4",
+			"poster": "course/en/video/PHV10.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-225",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "What's your budget?",
+		"instruction": "There are three correct options you should select",
+		"_items": [
+			{
+				"text": "That's proprietary information",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Take it up with purchasing. Anything dealing with pricing needs to be discussed with them",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Tell them your budget",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "What's the best you can do?",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Exactly!<br><br>You selected the correct answer options.",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are:<br>That's proprietary information<br>Take it up with purchasing. Anything dealing with pricing needs to be discussed with them<br>What's the best you can do?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2030",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-45"
+	},
+	{
+		"_id": "c-240",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 8: How to Respond and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v11.mp4",
+			"poster": "course/en/video/PHV11.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-245",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "What are your projected volumes?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "Where are your price breaks?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "At least 25,000 units.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "It depends on the ultimate price of our product and that depends on the cooperation of our suppliers in getting the best price possible. Give us your very best shot.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Whatever it says in the RFQ.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are:<br>Where are your price breaks?<br>It depends on the ultimate price of our product and that depends on the cooperation of our suppliers in getting the best price possible. Give us your very best shot.<br>Whatever it says in the RFQ."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-250",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 8: How to Respond and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v12.mp4",
+			"poster": "course/en/video/PHV12.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-255",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "Who else are you looking at? (competition)",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "You know who your competitors are.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "That's proprietary information. But let me ask you this, who do you regard as your major competitors?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Tell them the company names.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Ask the buyer.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are:<br>You know who your competitors are.<br>That's proprietary information. But let me ask you this, who do you regard as your major competitors?<br>Ask the buyer."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-260",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 8: How to Respond and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v13.mp4",
+			"poster": "course/en/video/PHV13.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-265",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "What don’t you like about your supplier?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "Haphazard delivery, slips in quality and an overall lack of responsiveness.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Why is that important to you?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Would you like us telling your competitors about your company's shortcomings?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "It's against company policy to answer that type of question.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.The correct answer options are:<br><br>Why is that important to you?<br>Would you like us telling your competitors about your company's shortcomings?<br>It's against company policy to answer that type of question."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2035",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-50"
+	},
+	{
+		"_id": "c-270",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 9: Classic Answers and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "<br><br>This is a license for the training of 1 person only. Violations should be reported to BNS at 813-655-4272 or local FBI office.",
+		"_media": {
+			"mp4": "course/en/video/v14.mp4",
+			"poster": "course/en/video/PHV14.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-275",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 1 - Who else will be signing off on this agreement",
+		"displayTitle": "",
+		"body": "Who else will be signing off on this agreement",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "Why is that important to you? Do you intend to go behind my back?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Tell them their names.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "That's not important. What is important is for you and your company to provide the best overall proposal on every part of the quote.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "It's a team approval process, but the only name you'll need is mine. I will coordinate everything.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>Why is that important to you? Do you intend to go behind my back?<br>That's not important. What is important is for you and your company to provide the best overall proposal on every part of the quote.<br>It's a team approval process, but the only name you'll need is mine. I will coordinate everything."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-280",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 9: Classic Answers and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v15.mp4",
+			"poster": "course/en/video/PHV15.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-285",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 2 - Who is the end user?",
+		"displayTitle": "",
+		"body": "Who is the end user?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "There are many (if that's true) and no, I can't tell you their names.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "That's proprietary information.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Ask the buyer!",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "ACME Enterprise.",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>There are many (if that's true) and no, I can't tell you their names.<br>That's proprietary information.<br>Ask the buyer."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-290",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 9: Classic Answers and More Questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v16.mp4",
+			"poster": "course/en/video/PHV16.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-295",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 3 - Does purchasing have veto power?",
+		"displayTitle": "",
+		"body": "Does purchasing have veto power?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "No, purchasing simply places order.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Why do you ask?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "It's a team buy. You need to convince all members of the team - including purchasing.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Yes, absolutely!",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are:<br>Why do you ask?<br>It's a team buy. You need to convince all members of the team - including purchasing.<br>Yes, absolutely!"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2040",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-55"
+	},
+	{
+		"_id": "c-300",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 10: How to Respond to Any Back Door Question",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v17.mp4",
+			"poster": "course/en/video/PHV17.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-305",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 1 - Regarding quality, how do we stack up?",
+		"displayTitle": "",
+		"body": "Regarding quality, how do we stack up?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "As with the competition, you meet specifications",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Fine",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Excellent. Of all the suppliers we've tested, you guys were clearly number one",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Good quality is expected. It's the basis for us even considering doing business with a supplier",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>As with the competition, you meet specifications<br>Fine<br>Good quality is expected. It's the basis for us even considering doing business with a supplier"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-310",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 10: How to Respond to Any Back Door Question",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v18.mp4",
+			"poster": "course/en/video/PHV18.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-315",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 2 - Regarding delivery, price, freight, etc., what's most important to you?",
+		"displayTitle": "",
+		"body": "Regarding delivery, price, freight, etc., what's most important to you?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "Delivery!",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "They are all important to us. Which ones are most important to you?",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "The total package",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Ask the buyer",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>They are all important to us. Which ones are most important to you?<br>The total package<br>Ask the buyer"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-320",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 10: How to Respond to Any Back Door Question",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v19.mp4",
+			"poster": "course/en/video/PHV19.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-325",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 3,
+		"title": "Question 3 - Would you mind if I take a quick plant tour?",
+		"displayTitle": "",
+		"body": "Would you mind if I take a quick plant tour?",
+		"instruction": "What are the three correct responses?",
+		"_items": [
+			{
+				"text": "If you are the supplier we select, we'd be delighted to give you a plant tour. Previous to that, it would be premature and inappropriate",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Sure, when would you like to go and what would you like to see?",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Contact purchasing, they can respond to your request",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Our company has a formal procedure that you'll need to follow. Why don't you pick up the request form from the receptionist?",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Correct!",
+			"_incorrect": {
+				"final": "That's not correct.<br><br>The correct answer options are: <br>If you are the supplier we select, we'd be delighted to give you a plant tour. Previous to that, it would be premature and inappropriate<br>Contact purchasing, they can respond to your request<br>Our company has a formal procedure that you'll need to follow. Why don't you pick up the request form from the receptionist?"
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-2045",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "next-button",
+		"_layout": "full",
+		"title": "next",
+		"displayTitle": "Next Chapter",
+		"_nextPage": "co-60"
+	},
+	{
+		"_id": "c-330",
+		"_parentId": "b-60",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 11: Closing The Door",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/llss20r2.mp4",
+			"poster": "course/en/video/PHV20.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+	"_id": "c-700",
+		"_parentId": "b-61",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Congratulations!",
+		"displayTitle": "",
+		"body": "You have completed the <strong>How to deal with Back Door Selling</strong> online workshop<br><br><itallic>Final steps:</itallic><br><br>Click to download a workbook entitled:<br><a href='course/en/images/BNS-Workbook.pdf' target='_blank'>How to Deal with Back Door Selling</a><br><br>Click to download a Certificate of completion<br><a href='https://looselipssinkcompanies.com/qorvo/course/completed' target='_blank'>Certificate</a>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-900",
+		"_parentId": "b-61",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Image",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/Certificate of Completion.png",
+			"small": "course/en/images/Certificate of Completion.png",
+			"alt": "",
+			"attribution": ""
+		}
 	}
+	
 ]

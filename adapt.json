@@ -22,6 +22,7 @@
         "adapt-contrib-slider": ">=2.2.0",
         "adapt-contrib-bookmarking": ">=2.1.2",
         "adapt-contrib-languagePicker": ">=2",
+        "adapt-next-button": "*",
         "adapt-contrib-xapi": "*"
     }
 }

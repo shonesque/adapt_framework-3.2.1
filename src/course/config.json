@@ -61,6 +61,7 @@
             }
         },
         "_lrsFailureBehaviour": "show"
-    }
+    },
+    "_forceRouteLocking": true
     
 }
